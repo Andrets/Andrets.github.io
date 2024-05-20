@@ -1,11 +1,11 @@
+import { createPinia } from 'pinia' // Обратите внимание на изменение пути
 import 'primeicons/primeicons.css'
+import PrimeVue from 'primevue' // Обратите внимание на изменение пути
 import ConfirmationService from 'primevue/confirmationservice'
 import 'primevue/resources/primevue.min.css'
 import 'primevue/resources/themes/aura-light-noir/theme.css'
 import ToastService from 'primevue/toastservice'
-import { createPinia } from '../node_modules/pinia'
-import PrimeVue from '../node_modules/primevue'
-import { createApp } from '../node_modules/vue'
+import { createApp } from 'vue' // Обратите внимание на изменение пути
 import App from './App.vue'
 import router from './router.js'
 import './style.css'
