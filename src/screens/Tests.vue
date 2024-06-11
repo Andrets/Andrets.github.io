@@ -88,8 +88,8 @@ const onSubmit = async event => {
 			event.target.reset()
 			name.value = ''
 			tag.value = ''
-			selectedFile = ''
-			fileInput = ''
+			selectedFile.value = ''
+			fileInput.value = ''
 			tags.value = []
 		} catch (err) {
 			isLoading.value = false

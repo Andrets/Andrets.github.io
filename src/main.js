@@ -1,6 +1,7 @@
-import { createPinia } from '../' // Обратите внимание на изменение пути
-import PrimeVue from 'primevue' // Обратите внимание на изменение пути
+import { createPinia } from 'pinia' // Обратите внимание на изменение пути
+import PrimeVue from 'primevue/config'
 import ConfirmationService from 'primevue/confirmationservice'
+import 'primevue/resources/themes/aura-light-noir/theme.css'
 import ToastService from 'primevue/toastservice'
 import { createApp } from 'vue' // Обратите внимание на изменение пути
 import App from './App.vue'

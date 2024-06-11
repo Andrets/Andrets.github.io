@@ -4,8 +4,6 @@ import {ref} from "vue";
 import router from "../router.js";
 
 export const useApiStore = defineStore('api',  () => {
-	const csrfToken = document.cookie.match(/csrftoken=([^ ;]+)/)[1];
-    axios.defaults.headers.common['X-CSRFToken'] = csrfToken;
 	const login = async (payload) => {
 		isLoading.value = true
 		const response = await axios.post('http://localhost:8000/api-v1/auth/login', payload, {
